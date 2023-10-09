@@ -21,7 +21,7 @@ export const handler = async (event) => {
   try {
     const randomMessage = getRandomMessage();
 
-    const result = await axios.post('https://discord.com/api/webhooks/1160602555894730902/JtJgb9f0YUc_K11u4rEXrak2yilCTcQwKfgcTF85tqW_RCAoFBRQ559v3X2OaU_JzmT4', {
+    const result = await axios.post('api주소', {
       content: randomMessage,
     });
 
